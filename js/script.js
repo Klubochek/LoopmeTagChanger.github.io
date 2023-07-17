@@ -69,8 +69,9 @@ function replace_tag() {
             text = text.replaceAll(DCM_string6,DCM_replace6 );
             text = text.replaceAll(DCM_string7,DCM_replace7 );
             break;
-        case "CeltraWithUR":
+        case "CeltraWithURL":
             text=text.replaceAll(CeltraWithUR_string1,CeltraWithUR_replace1);
+            alert("CeltraWithURLD done");
             break;
         case "CeltraWithoutURL":
             text=text.replaceAll(CeltraWithoutURL_string1,CeltraWithoutURL_replace1);
