@@ -68,24 +68,31 @@ function replace_tag() {
             text = text.replaceAll(DCM_string5,DCM_replace5 );
             text = text.replaceAll(DCM_string6,DCM_replace6 );
             text = text.replaceAll(DCM_string7,DCM_replace7 );
+            break;
         case "CeltraWithUR":
             text=text.replaceAll(CeltraWithUR_string1,CeltraWithUR_replace1);
+            break;
         case "CeltraWithoutURL":
             text=text.replaceAll(CeltraWithoutURL_string1,CeltraWithoutURL_replace1);
+            break;
         case "Sizmek":
             text=text.replaceAll(Sizmek_string1,Sizmek_replace1);
+            break;
         case "DoubleV":
             text=text.replaceAll(DoubleV_string1,DoubleV_replace1);
             text=text.replaceAll(DoubleV_string2,DoubleV_replace2);
             text=text.replaceAll(DoubleV_string3,DoubleV_replace3);
             text=text.replaceAll(DoubleV_string4,DoubleV_replace4);
+            break;
         case "IAS":
             text=text.replaceAll(IAS_string1,IAS_replace1);
             text=text.replaceAll(IAS_string2,IAS_replace2);
+            break;
         case "Innovid":
             text=text.replaceAll(Innovid_string1,Innovid_replace1);
             text=text.replaceAll(Innovid_string2,Innovid_replace2);
             text=text.replaceAll(Innovid_string3,Innovid_replace3);
+            break;
 
     }
     return document.querySelector("#textarea2").value=text;
