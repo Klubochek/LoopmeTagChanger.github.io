@@ -71,7 +71,6 @@ function replace_tag() {
             break;
         case "CeltraWithURL":
             text=text.replaceAll(CeltraWithUR_string1,CeltraWithUR_replace1);
-            alert("CeltraWithURLD done");
             break;
         case "CeltraWithoutURL":
             text=text.replaceAll(CeltraWithoutURL_string1,CeltraWithoutURL_replace1);
